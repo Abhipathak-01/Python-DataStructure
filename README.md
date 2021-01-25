@@ -36,7 +36,7 @@ The time complexity of the above algorithm is O(N).
 
 **Definition**:-
 
-Binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.
+Binary search, also known as half-interval search, logarithmic search, or binary chop, is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array.[wikipedia]
 
 **Steps**:-
 Given an array as an input and a key to be searched in the array.
@@ -47,8 +47,27 @@ Given an array as an input and a key to be searched in the array.
 4. Else (x is smaller) recur for the left half.
 
 **Analysis**:-
+
 The time complexity of Binary Search can be written as 
         T(n) = T(n/2) + c
 solution of the recurrence is 
         O(Logn)
+
+### **Insertion Sort**
+
+**Definition**:-
+
+Insertion sort is a simple sorting that builds the final sorted array one item at a time. The array is virtually split into a sorted and unsorted part. Values from unsorted part are picked and plaed at the correct position in the sorted part.
+
+**Steps**:-
+To sort an array of size n in ascending order.
+
+1. Iterate from arr[1] to arr[n] over the array.
+2. Compare the current element (key) to its predecessor.
+3. If the key element is smaller than its predecessor, compare it to the elements before. Move the greater elements one position up to make space for the swapped element.
+
+**Analysis**:-
+
+Time complexity of insertion sort is O(N*2)
+Insertion sort takes maximum time to sort if elements are sorted in reverse order. And it takes minimum time (Order of n) when elements are already sorted.
 
