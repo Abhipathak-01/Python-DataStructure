@@ -11,7 +11,7 @@
 - [x] Selection Sort
 - [x] Generating Subarrays
 - [x] maximum sum of all possible subarrays
-- [ ] smallest and largest element of the given array.
+- [x] smallest and largest element of the given array.
 
 
 ### **Linear Search**
