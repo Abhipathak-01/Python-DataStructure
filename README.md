@@ -7,8 +7,8 @@
 - [x] Linear Search
 - [x] Binary Search
 - [x] Insertion Sort
-- [ ] Bubble Sort
-- [ ] Selection Sort
+- [x] Bubble Sort
+- [x] Selection Sort
 - [ ] Generating Subarrays
 - [ ] maximum sum of all possible subarrays
 - [ ] smallest and largest element of the given array.
@@ -83,3 +83,17 @@ Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorith
 Time complexity for bubble sort is 
 Worst case O(N*N) when the array is reverse sorted.
 Best case  O(N) when the array is already sorted.
+
+### **Selection Sort**
+
+**Definition**:-
+
+Selection sort is an in-place comparison sortin algorithm.It sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintain two subarray in a given array.
+1. The subarray which is already sorted.
+2. Remaining subarray which is unsorted.
+
+**Analysis**:-
+
+Time complexity for selection sort is O(N^2).
+Good thing about selection sort is it never makes more than O(N) swaps and can be useful when memory write is a costly operation. 
+
