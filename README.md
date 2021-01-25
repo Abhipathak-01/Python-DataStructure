@@ -14,4 +14,19 @@ Today we are going to see the implementation and understanding of following conc
    
     1. ### Linear Search
             
-            Linear search is searching technique with very easy to implmentation.
+**Definition**:-
+
+linear search or sequential search is a method for finding an element within a list. It sequentially check each element of the list unitl a match is found or the whole list has been searched. [wikipedia]
+
+**Steps**:-
+Given an array as an input and a key to be searched in the array.
+
+1. Start from the leftmost element of the given array and one by one compare the (key) with each element of the array.
+2. if (key) matches with an element, return the index
+3. if (key) doesn't match with any of elements, return -1
+
+**Analysis**:-
+
+Linear seach is rarely used practically because other algorithms such as the binary search algorithm and hash tables allows significantly faster-searching comparisons to Linear search. 
+
+The time complexity of the above algorithm is O(N).
