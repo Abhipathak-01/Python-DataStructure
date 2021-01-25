@@ -1,7 +1,7 @@
-"""This demonstrates the generation of subarrays from a list."""
+"""This demonstrates the maximum sum of all possible subarrays from a list."""
 import time
 
-print("#####Demonstration of Subarray Generation.#####")
+print("#####Demonstration of Max sum of Subarray Generation.#####")
 print("Enter how many elements to be stored in the list.")
 noOfElements = int(input()) # Enter the no of Elements
 print("Enter the elements in the list.")
@@ -10,11 +10,13 @@ for _ in range(noOfElements):
     number = int(input()) 
     inputElements.append(number)
                   
-subarrays = []
+sumSubarrays = []
 
 for i in range(len(inputElements)):
     for j in range(len(inputElements)):
         subarray = inputElements[i:j]
-        subarrays.append(subarray)
+        sumSubarrays.append(sum(subarray))
 
-print(subarrays)
+print("Maximum sum among subarrays is: {}".format(max(sumSubarrays)))
+
+
