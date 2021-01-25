@@ -2,15 +2,16 @@
 
 ## Day-01
 
-Today we are going to see the implementation and understanding of following concepts and techniques.
-1. Linear Search
-2. Binary Search
-3. Insertion Sort
-4. Bubble Sort
-5. Selection Sort
-6. Generating subarrays
-7. max sum of all possible subarrays
-8. smallest and greatest element of the given array
+### Day-01 Implementation list
+
+- [x] Linear Search
+- [x] Binary Search
+- [x] Insertion Sort
+- [ ] Bubble Sort
+- [ ] Selection Sort
+- [ ] Generating Subarrays
+- [ ] maximum sum of all possible subarrays
+- [ ] smallest and largest element of the given array.
 
 
 ### **Linear Search**
