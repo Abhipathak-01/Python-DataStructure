@@ -18,7 +18,7 @@
 ### Day-02 Implementation list
 
 - [x] Print every character of a given string
-- [ ] Character frequency in given string
+- [x] Character frequency in given string
 - [ ] substrings 
 - [ ] duplicate characters in given strings
 - [ ] adding HTML tags
