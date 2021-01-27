@@ -13,3 +13,13 @@
 - [x] maximum sum of all possible subarrays
 - [x] smallest and largest element of the given array.
 
+## Day-02
+
+### Day-02 Implementation list
+
+- [ ] Print every character of a given string
+- [ ] Character frequency in given string
+- [ ] substrings 
+- [ ] duplicate characters in given strings
+- [ ] adding HTML tags
+
