@@ -17,7 +17,7 @@
 
 ### Day-02 Implementation list
 
-- [ ] Print every character of a given string
+- [x] Print every character of a given string
 - [ ] Character frequency in given string
 - [ ] substrings 
 - [ ] duplicate characters in given strings
